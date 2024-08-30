@@ -32,11 +32,14 @@ CUDA_VISIBLE_DEVICES=0 python train.py --config_file configs/msvr310/vit.yml
 
 ### Evaluation
 
-For example, if you want to test ReID-Adapter for LS-VID
+For example, if you want to test PromptMA for MSVR310
 
 ```
 CUDA_VISIBLE_DEVICES=0 python test.py --config_file configs/msvr310/vit.yml TEST.WEIGHT 'your_trained_checkpoints_path/ViT-B-16_120.pth'
 ```
+
+### Weight
+Mould-related weights files can be obtained from this [Google Drive](https://drive.google.com/drive/folders/1CqVSck0s_Cq0dwptvyRlPQ7_DRwRkYdo?usp=sharing)
 
 ### Acknowledgement
 
