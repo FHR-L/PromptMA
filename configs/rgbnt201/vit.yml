@@ -48,7 +48,7 @@ SOLVER:
   EVAL_PERIOD: 4
   BIAS_LR_FACTOR: 2
 
-  STEPS: [16, 21]
+  STEPS: [16, 21] # or [13, 21]
   GAMMA: 0.1
 
 TEST:
